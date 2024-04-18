@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    
+    
+    <script>
+        
+        //program to display the name using a function
+        let name1 = prompt("Enter your first name:");
+
+        let name2 = prompt("Enter your second name:");
+        
+        //declaring a function
+        function greet(name1,name2) {
+            console.log("Hello " + name1 + " " + name2 + ":");
+        }
+
+        //declaring a function
+        function combineNames(name1,name2) {
+            return name1 + " " + name2;
+        }
+
+        //calling a function
+        greet(name1,name2);
+        
+        greet(name2,name1);
+
+        let names = combineNames(name1,name2);
+
+        console.log("your full name is " + names);
+
+
+
+
+
+    </script>
+
+</body>
+</html>
+

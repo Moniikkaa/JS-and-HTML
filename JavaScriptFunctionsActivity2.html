@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions Factorial of a number</title>
+</head>
+<body>
+    
+    
+    <script>
+       
+        //Setup factorial function
+        function factorial(n) {
+            
+            //Check if the number is negative
+            if (n < 0) {
+             return "Factorial cannot be calculated for negative numbers" ;
+        }
+
+        //Setup the factorial variable with an initial value
+        let result = 1;
+
+        //Calculate factorial
+        for (let i = 1; i <= n; i++) {
+            result *= i;
+        }
+
+        //Return the factorial
+        return result;
+
+        }
+
+        //Call the factorial function and log the result to the console
+        console.log(factorial(6));
+
+    </script>
+</body>
+</html>

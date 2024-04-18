@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriptResults</title>
+</head>
+<body>
+
+    <p id="ResultA"></p>
+    <p id="ResultB"></p>
+    <p id="ResultC"></p>
+    <p id="ResultD"></p>
+
+
+    <script>
+        //calculating A B C and D
+        let resultA = -5 + 8 * 6;
+        let resultB = (55+9) % 9;
+        let resultC = 20 +-3*5/8;
+        let resultD = 5 +15 / 3*2 - 8% 3
+
+        //outputting the result to the console
+        console.log("ResultA: " + resultA);
+        console.log("ResultB: " + resultB);
+        console.log("ResultC: " + resultC);
+        console.log("ResultD: " + resultD);
+
+         //outputting the result to alert
+         window.alert("ResultA: " + resultA)
+         window.alert("ResultB: " + resultB)
+         window.alert("ResultC: " + resultC)
+         window.alert("ResultD: " + resultD)
+
+         //outputting the result to HTML
+         document.getElementById("ResultA").innerHTML = resultA;
+         document.getElementById("ResultB").innerHTML = resultB;
+         document.getElementById("ResultC").innerHTML = resultC;
+         document.getElementById("ResultD").innerHTML = resultD;
+      
+
+    </script>
+</body>
+</html>

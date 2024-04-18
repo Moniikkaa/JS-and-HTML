@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparing numbers</title>
+</head>
+<body>
+    
+    
+    <script>
+       
+        //Input three numbers from the user
+        let firstNumber = prompt("Enter first number : ");
+        let secondNumber = prompt("Enter second number : ");
+        let thirdNumber = prompt("Enter third number : ");
+
+        //check if the numbers are in the increasing order
+        if (firstNumber < secondNumber && secondNumber < thirdNumber) {
+            window.alert("The numbers are in the increasing order");
+        }
+
+        //check if the numbers are in the decreasing order
+        else if (firstNumber > secondNumber && secondNumber > thirdNumber){
+            window.alert("The numbers are in the decreasing order");
+        }
+        
+        //if numbers are not increasing, nor decreasing
+        else {
+            window.alert("Neither increasing or decreasing order");
+        }
+        
+        
+    </script>
+</body>
+</html>

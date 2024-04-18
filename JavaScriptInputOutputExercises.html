@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Result</title>
+</head>
+<body>
+    <p id="Age input"></p>
+    <p id="Gender input"></p>
+    
+    <script>
+       
+        //Now I must accept input from the user and display it
+        let input1 = prompt("How old are you?");
+        let input2 = prompt("What is your gender?");
+        
+        //this is how you output to console
+        console.log("Your age is: " + input1);
+        console.log("Your gender is: " + input2);
+
+        //this is how you output to alert
+        window.alert("Your age is: " + input1);
+        window.alert("Your gender is: " + input2);
+
+        //this is how to output to HTML
+        document.getElementById("Age input").innerHTML = input1;
+        document.getElementById("Gender input").innerHTML = input2;
+
+    </script>
+</body>
+</html>
